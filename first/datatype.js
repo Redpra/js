@@ -1,12 +1,12 @@
 //two types: PRIMITVE AND NON PRIMITIVE
-//PRIMITIVE-number,string,boolean,symbol,bigint,null,undefined
+//PRIMITIVE-number,string,boolean,symbol,bigint,null,undefined(call by value)
 let a=Symbol('123')
 let b=Symbol('123')
 console.log(a==b)
 //bigint-for declaring big numbers
 //null by default an object
 
-//NON PRIMITIVE-array,functions,object
+//NON PRIMITIVE-array,functions,object(call by reference)
 const t=[1,2,3,4];//arrays
 let v={
     name:"praneeth",
