@@ -18,6 +18,6 @@ function hii(user){
 hii("praneeth")
 //arrow function
 const hi=()=>{
- console.log("hiii")
+ console.log("hey")
 }
 hi()
